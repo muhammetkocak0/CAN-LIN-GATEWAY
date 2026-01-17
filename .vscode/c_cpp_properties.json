@@ -1,18 +1,126 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
 {
-  "configurations": [
-    {
-      "name": "windows-gcc-x64",
-      "includePath": [
-        "${workspaceFolder}/**"
-      ],
-      "compilerPath": "gcc",
-      "cStandard": "${default}",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "windows-gcc-x64",
-      "compilerArgs": [
-        ""
-      ]
-    }
-  ],
-  "version": 4
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "C:/Users/muham/Desktop/stm32Gateway/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc/LL",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/inc",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/inc",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/STM32F4xx",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/variants/STM32F4xx/F446R(C-E)T",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/src",
+                "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "C:/Users/muham/Desktop/stm32Gateway/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino/avr",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino/stm32",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/inc/LL",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/inc",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/inc",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Inc",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/STM32F4xx_HAL_Driver/Src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/STM32F4xx",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/ST/STM32_USB_Device_Library/Core/Src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/open-amp/lib/include",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/libmetal/lib/include",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Middlewares/OpenAMP/virtual_driver",
+                    "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/Core/Include",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/system/Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/gcc",
+                    "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/DSP/Include",
+                    "C:/Users/muham/.platformio/packages/framework-cmsis/CMSIS/DSP/PrivateInclude",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/cores/arduino",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/variants/STM32F4xx/F446R(C-E)T",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/CMSIS_DSP/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/EEPROM/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/IWatchdog/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Keyboard/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Mouse/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/RGB_LED_TLC59731/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SPI/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Servo/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SoftwareSerial/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SrcWrapper/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/SubGhz/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/USBDevice/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/VirtIO/src",
+                    "C:/Users/muham/.platformio/packages/framework-arduinoststm32/libraries/Wire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60118",
+                "STM32F4",
+                "STM32F446xx",
+                "HAL_CAN_MODULE_ENABLED",
+                "HAL_UART_MODULE_ENABLED",
+                "DEBUG_SERIAL=1",
+                "STM32F4xx",
+                "ARDUINO=10808",
+                "ARDUINO_ARCH_STM32",
+                "NDEBUG",
+                "ARDUINO_NUCLEO_F446RE",
+                "BOARD_NAME=\"NUCLEO_F446RE\"",
+                "HAL_UART_MODULE_ENABLED",
+                "USE_HAL_DRIVER",
+                "USE_FULL_LL_DRIVER",
+                "VARIANT_H=\"variant_NUCLEO_F446RE.h\"",
+                "VECT_TAB_OFFSET=0x0",
+                ""
+            ],
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "compilerPath": "C:/Users/muham/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mfpu=fpv4-sp-d16",
+                "-mfloat-abi=hard",
+                ""
+            ]
+        }
+    ],
+    "version": 4
 }
