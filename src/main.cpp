@@ -16,7 +16,6 @@
  */
 
 #include <Arduino.h>
-#include <HardwareSerial.h>
 
 // ============================================================================
 // CONFIGURATION
@@ -24,6 +23,11 @@
 #define LIN_BAUD 19200
 #define CAN_BAUD 500000
 #define CAN_TX_INTERVAL_MS 20  // 50Hz CAN update rate
+
+// Helper macros
+#ifndef min
+#define min(a,b) ((a)<(b)?(a):(b))
+#endif
 
 // LIN Frame IDs from LDF (Vehicle ECU will send these)
 #define LIN_FRAME_ID_BLW_F_STAT 0x32  // 50 decimal - BLDC Status Response
@@ -102,7 +106,8 @@ typedef struct {
 // ============================================================================
 // GLOBAL VARIABLES
 // ============================================================================
-HardwareSerial LinSerial(LIN_RX_PIN, PA2);  // PA2 unused but required for constructor
+// LIN Serial on UART2 (PA2=TX unused, PA3=RX for passive sniffing)
+HardwareSerial LinSerial(PA3, PA2);  // RX, TX (TX unused in passive mode)
 BLDC_Status_t bldcStatus = {0};
 Gateway_Stats_t gatewayStats = {0};
 uint32_t lastCANTxTime = 0;
